@@ -1,0 +1,896 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03C23EC8A03F549AFAB0B10EF7DD7F33 /* Pods-CoinFitUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C4E6A8936FB4B675ACA571CCC333E4 /* Pods-CoinFitUITests-dummy.m */; };
+		1CC70C975D92DE14BAC7B4E399C88F3C /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6472965B50FB550F1E374D7B33A9D5F /* IsaoTextField.swift */; };
+		2BA6432759F65454232B289A02E2B4DB /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38565F6B1DC573225643D9F2A7505D1A /* KaedeTextField.swift */; };
+		2CCA9F990136A34247549422EE11F6FA /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E63D044812E3765F6EDA42828A72C4 /* YoshikoTextField.swift */; };
+		386F990BC73FCCE749A8FDA323A9D2CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		39A9F61CBBD78848D6E447F9DB189F90 /* Pods-CoinFitTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AACEFD5C98F805619FA436EB5D3D2012 /* Pods-CoinFitTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		405582CB432F9A776CC4A15CBB6340E9 /* Pods-CoinFitUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BC5367D01F2DF127ADB842B5A0EEDB1 /* Pods-CoinFitUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4653DACA1DD1DF5235D052457B74B976 /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8131792BBEE6A90CF9918BAC65034066 /* AkiraTextField.swift */; };
+		49F3B743CC6B1C6273633D5944C85015 /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C13156D30D470663AD8E2F0122EFC96 /* MadokaTextField.swift */; };
+		5065B6843B534EBA6DBC60ED37A02230 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7279A41C692CBCBFF698720587FDF03D /* TextFieldEffects-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D364D5FF41B3CE8F6D0228FB598EC67 /* TextFieldEffects-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86EFE0E6AB44E58FBB1FABA9CD8A8C25 /* Pods-CoinFit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F15B9BC0ABFB9EC2A1688C0294513544 /* Pods-CoinFit-dummy.m */; };
+		88605A9CD631E7BD56A658BEEDF43D8B /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21059C29D49087D301FA139D8726F631 /* YokoTextField.swift */; };
+		8A1323F97EB6BC944C935FF2911565CB /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E1C478C66613314778A9E914076019 /* HoshiTextField.swift */; };
+		8FFB0BDCDA3FF18A3DE93C25054186FB /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2C3490F5194C7714570F38D6D2E481 /* TextFieldEffects.swift */; };
+		A3229655A49CC9E5E5D9DD632B75CBFC /* TextFieldEffects-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 008C803C59120436A273DB50612CEC78 /* TextFieldEffects-dummy.m */; };
+		AF35C0695920341DD9D1E7B651676EAB /* Pods-CoinFit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 307EF2797800E01A4DDE2D9B2E9CDBA6 /* Pods-CoinFit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B231FAA85FC65981C67780C750EE45C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BB12FBBF201CC13638DCC0512D81D0B5 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC4B423B2A9D22E359C9E3CB872549A /* JiroTextField.swift */; };
+		D632D1B2C22A1E3FD906C7270263F435 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9133FAE39EB1D9892F29355AB69358DC /* MinoruTextField.swift */; };
+		DFB2EC82222C6D6FD407F7C92C3A7B09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F110BAE6D0F5F67BC16032F499C17CD1 /* Pods-CoinFitTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3FFBB8F3D61802D49B7C18344F47AA /* Pods-CoinFitTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68AADCB0E7622290916452267A419BF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C1E4B4EBE2E1081D52AB08F72D0F414;
+			remoteInfo = TextFieldEffects;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008857312D560B145A69662B5B43DE6E /* Pods_CoinFit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CoinFit.framework; path = "Pods-CoinFit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		008C803C59120436A273DB50612CEC78 /* TextFieldEffects-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFieldEffects-dummy.m"; sourceTree = "<group>"; };
+		00C4E6A8936FB4B675ACA571CCC333E4 /* Pods-CoinFitUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoinFitUITests-dummy.m"; sourceTree = "<group>"; };
+		0E9F2417E3C51FE3417B9CFFF9FDB268 /* Pods-CoinFitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoinFitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0FDE8FBFFA524A652155903B1FDD7F0F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A1EF656C52FD7C33624909A3CA1E1F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC4B5E76332789C364710FAAC334D32 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FCA06B5F64160FA3225EF1483944994 /* Pods-CoinFit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoinFit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		21059C29D49087D301FA139D8726F631 /* YokoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YokoTextField.swift; path = TextFieldEffects/TextFieldEffects/YokoTextField.swift; sourceTree = "<group>"; };
+		2E3FFBB8F3D61802D49B7C18344F47AA /* Pods-CoinFitTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoinFitTests-dummy.m"; sourceTree = "<group>"; };
+		307EF2797800E01A4DDE2D9B2E9CDBA6 /* Pods-CoinFit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoinFit-umbrella.h"; sourceTree = "<group>"; };
+		30C9F600FF4E14641732D3D4542AA023 /* Pods-CoinFitUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoinFitUITests-frameworks.sh"; sourceTree = "<group>"; };
+		37A8A0B9519606FA46D5C1D33E819179 /* Pods-CoinFitTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CoinFitTests.modulemap"; sourceTree = "<group>"; };
+		38565F6B1DC573225643D9F2A7505D1A /* KaedeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KaedeTextField.swift; path = TextFieldEffects/TextFieldEffects/KaedeTextField.swift; sourceTree = "<group>"; };
+		3E1B0EA6FC469829225273BA8A6B618D /* Pods-CoinFit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoinFit.release.xcconfig"; sourceTree = "<group>"; };
+		3EFDC26D6436E8CEF290CD332C352E87 /* Pods-CoinFitUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoinFitUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		44E1C478C66613314778A9E914076019 /* HoshiTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HoshiTextField.swift; path = TextFieldEffects/TextFieldEffects/HoshiTextField.swift; sourceTree = "<group>"; };
+		4D364D5FF41B3CE8F6D0228FB598EC67 /* TextFieldEffects-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-umbrella.h"; sourceTree = "<group>"; };
+		4EC4B423B2A9D22E359C9E3CB872549A /* JiroTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JiroTextField.swift; path = TextFieldEffects/TextFieldEffects/JiroTextField.swift; sourceTree = "<group>"; };
+		5069894FD39A3BF617CE4B07331EF458 /* Pods-CoinFitTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoinFitTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		56F7C5CCB4A613318B1D5B5A66A6E669 /* Pods-CoinFitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoinFitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		60650D9C2BEC03B14A4BB4E1E39ADCC8 /* Pods-CoinFit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoinFit-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		71084AEA56ABB2C0EA7F469EC59DF977 /* Pods-CoinFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoinFit.debug.xcconfig"; sourceTree = "<group>"; };
+		7D4902D7E549E7EFADE6672D8F661828 /* Pods-CoinFitUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoinFitUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		806E866C8906CF97A0F2102090265347 /* TextFieldEffects-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFieldEffects-prefix.pch"; sourceTree = "<group>"; };
+		8131792BBEE6A90CF9918BAC65034066 /* AkiraTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AkiraTextField.swift; path = TextFieldEffects/TextFieldEffects/AkiraTextField.swift; sourceTree = "<group>"; };
+		86E63D044812E3765F6EDA42828A72C4 /* YoshikoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoshikoTextField.swift; path = TextFieldEffects/TextFieldEffects/YoshikoTextField.swift; sourceTree = "<group>"; };
+		8C13156D30D470663AD8E2F0122EFC96 /* MadokaTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MadokaTextField.swift; path = TextFieldEffects/TextFieldEffects/MadokaTextField.swift; sourceTree = "<group>"; };
+		8C2B5503F0F4366D07115B42BAC0ED05 /* Pods_CoinFitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CoinFitTests.framework; path = "Pods-CoinFitTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F540477DE6EC246D690173A4A97177C /* Pods-CoinFitUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoinFitUITests-resources.sh"; sourceTree = "<group>"; };
+		9133FAE39EB1D9892F29355AB69358DC /* MinoruTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MinoruTextField.swift; path = TextFieldEffects/TextFieldEffects/MinoruTextField.swift; sourceTree = "<group>"; };
+		933D592713FB9DAC758CB57B9C9A6274 /* Pods-CoinFit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CoinFit.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9411076FD326E1D6761E97BA35E3D3CA /* Pods-CoinFitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoinFitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9773C24029052FBB9C88B362ECD353CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B61048CB42525B7B4402D668FBCAB4F /* Pods-CoinFitTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoinFitTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9BC5367D01F2DF127ADB842B5A0EEDB1 /* Pods-CoinFitUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoinFitUITests-umbrella.h"; sourceTree = "<group>"; };
+		9BD7A9E6927E22CE8426252C983CA241 /* Pods_CoinFitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CoinFitUITests.framework; path = "Pods-CoinFitUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E02C9C946E587E73CEBC76713796A6F /* TextFieldEffects.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TextFieldEffects.modulemap; sourceTree = "<group>"; };
+		9EC325F2E9D64277E2B6442568B238A4 /* Pods-CoinFitUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CoinFitUITests.modulemap"; sourceTree = "<group>"; };
+		A02E18EA6B177B0D34E26EA2909580F1 /* Pods-CoinFitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoinFitTests.release.xcconfig"; sourceTree = "<group>"; };
+		A1B985645CADD42277D702523CAFDD1E /* TextFieldEffects.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFieldEffects.xcconfig; sourceTree = "<group>"; };
+		A5F8802BF2026D95B3E491A11C47A9B8 /* Pods-CoinFit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoinFit-acknowledgements.plist"; sourceTree = "<group>"; };
+		AACEFD5C98F805619FA436EB5D3D2012 /* Pods-CoinFitTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoinFitTests-umbrella.h"; sourceTree = "<group>"; };
+		B51EB767504C819BBEF88B8AFA69D162 /* Pods-CoinFit-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoinFit-frameworks.sh"; sourceTree = "<group>"; };
+		BC2C3490F5194C7714570F38D6D2E481 /* TextFieldEffects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldEffects.swift; path = TextFieldEffects/TextFieldEffects/TextFieldEffects.swift; sourceTree = "<group>"; };
+		C7173F5DEA0F2F833C393092D26E5074 /* Pods-CoinFitTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoinFitTests-frameworks.sh"; sourceTree = "<group>"; };
+		DDFDE0F99B66769648084465DC1ECA7C /* Pods-CoinFitTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoinFitTests-resources.sh"; sourceTree = "<group>"; };
+		E6472965B50FB550F1E374D7B33A9D5F /* IsaoTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IsaoTextField.swift; path = TextFieldEffects/TextFieldEffects/IsaoTextField.swift; sourceTree = "<group>"; };
+		F15B9BC0ABFB9EC2A1688C0294513544 /* Pods-CoinFit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoinFit-dummy.m"; sourceTree = "<group>"; };
+		F4D3749FC8B8590F487744B01D4B78AD /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TextFieldEffects.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		438970B79A1A35DEDA6ADABBD4193C7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5065B6843B534EBA6DBC60ED37A02230 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6832738C2FC38F21FDED70FD8C3A2D76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386F990BC73FCCE749A8FDA323A9D2CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FBC5A39D44B0FA08F169BEBF781BE5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B231FAA85FC65981C67780C750EE45C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8F8386AD22BCD8C9188303D19177E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB2EC82222C6D6FD407F7C92C3A7B09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0886DF59C26D74FEC40625067FDEB830 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9773C24029052FBB9C88B362ECD353CC /* Info.plist */,
+				9E02C9C946E587E73CEBC76713796A6F /* TextFieldEffects.modulemap */,
+				A1B985645CADD42277D702523CAFDD1E /* TextFieldEffects.xcconfig */,
+				008C803C59120436A273DB50612CEC78 /* TextFieldEffects-dummy.m */,
+				806E866C8906CF97A0F2102090265347 /* TextFieldEffects-prefix.pch */,
+				4D364D5FF41B3CE8F6D0228FB598EC67 /* TextFieldEffects-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TextFieldEffects";
+			sourceTree = "<group>";
+		};
+		55EDCE76AA05D63B893FD4328BFE3F6B /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				8131792BBEE6A90CF9918BAC65034066 /* AkiraTextField.swift */,
+				44E1C478C66613314778A9E914076019 /* HoshiTextField.swift */,
+				E6472965B50FB550F1E374D7B33A9D5F /* IsaoTextField.swift */,
+				4EC4B423B2A9D22E359C9E3CB872549A /* JiroTextField.swift */,
+				38565F6B1DC573225643D9F2A7505D1A /* KaedeTextField.swift */,
+				8C13156D30D470663AD8E2F0122EFC96 /* MadokaTextField.swift */,
+				9133FAE39EB1D9892F29355AB69358DC /* MinoruTextField.swift */,
+				BC2C3490F5194C7714570F38D6D2E481 /* TextFieldEffects.swift */,
+				21059C29D49087D301FA139D8726F631 /* YokoTextField.swift */,
+				86E63D044812E3765F6EDA42828A72C4 /* YoshikoTextField.swift */,
+				0886DF59C26D74FEC40625067FDEB830 /* Support Files */,
+			);
+			name = TextFieldEffects;
+			path = TextFieldEffects;
+			sourceTree = "<group>";
+		};
+		7139E2A20C14E3946604367DAD6A7AF7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C9E26B3EE422AF65E438BC6F61451A9 /* Pods-CoinFit */,
+				766071DD3E7F74325005A696113F36CD /* Pods-CoinFitTests */,
+				C810FCE57AFC58369A0E201FD34385B0 /* Pods-CoinFitUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		766071DD3E7F74325005A696113F36CD /* Pods-CoinFitTests */ = {
+			isa = PBXGroup;
+			children = (
+				0FDE8FBFFA524A652155903B1FDD7F0F /* Info.plist */,
+				37A8A0B9519606FA46D5C1D33E819179 /* Pods-CoinFitTests.modulemap */,
+				9B61048CB42525B7B4402D668FBCAB4F /* Pods-CoinFitTests-acknowledgements.markdown */,
+				5069894FD39A3BF617CE4B07331EF458 /* Pods-CoinFitTests-acknowledgements.plist */,
+				2E3FFBB8F3D61802D49B7C18344F47AA /* Pods-CoinFitTests-dummy.m */,
+				C7173F5DEA0F2F833C393092D26E5074 /* Pods-CoinFitTests-frameworks.sh */,
+				DDFDE0F99B66769648084465DC1ECA7C /* Pods-CoinFitTests-resources.sh */,
+				AACEFD5C98F805619FA436EB5D3D2012 /* Pods-CoinFitTests-umbrella.h */,
+				9411076FD326E1D6761E97BA35E3D3CA /* Pods-CoinFitTests.debug.xcconfig */,
+				A02E18EA6B177B0D34E26EA2909580F1 /* Pods-CoinFitTests.release.xcconfig */,
+			);
+			name = "Pods-CoinFitTests";
+			path = "Target Support Files/Pods-CoinFitTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FB9A7A6FC3D2FEAD2BDF6ABD4DDE0449 /* Pods */,
+				E353DF22D38967C08D97E19C631457C0 /* Products */,
+				7139E2A20C14E3946604367DAD6A7AF7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8C9E26B3EE422AF65E438BC6F61451A9 /* Pods-CoinFit */ = {
+			isa = PBXGroup;
+			children = (
+				1A1EF656C52FD7C33624909A3CA1E1F9 /* Info.plist */,
+				933D592713FB9DAC758CB57B9C9A6274 /* Pods-CoinFit.modulemap */,
+				1FCA06B5F64160FA3225EF1483944994 /* Pods-CoinFit-acknowledgements.markdown */,
+				A5F8802BF2026D95B3E491A11C47A9B8 /* Pods-CoinFit-acknowledgements.plist */,
+				F15B9BC0ABFB9EC2A1688C0294513544 /* Pods-CoinFit-dummy.m */,
+				B51EB767504C819BBEF88B8AFA69D162 /* Pods-CoinFit-frameworks.sh */,
+				60650D9C2BEC03B14A4BB4E1E39ADCC8 /* Pods-CoinFit-resources.sh */,
+				307EF2797800E01A4DDE2D9B2E9CDBA6 /* Pods-CoinFit-umbrella.h */,
+				71084AEA56ABB2C0EA7F469EC59DF977 /* Pods-CoinFit.debug.xcconfig */,
+				3E1B0EA6FC469829225273BA8A6B618D /* Pods-CoinFit.release.xcconfig */,
+			);
+			name = "Pods-CoinFit";
+			path = "Target Support Files/Pods-CoinFit";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C810FCE57AFC58369A0E201FD34385B0 /* Pods-CoinFitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FC4B5E76332789C364710FAAC334D32 /* Info.plist */,
+				9EC325F2E9D64277E2B6442568B238A4 /* Pods-CoinFitUITests.modulemap */,
+				7D4902D7E549E7EFADE6672D8F661828 /* Pods-CoinFitUITests-acknowledgements.markdown */,
+				3EFDC26D6436E8CEF290CD332C352E87 /* Pods-CoinFitUITests-acknowledgements.plist */,
+				00C4E6A8936FB4B675ACA571CCC333E4 /* Pods-CoinFitUITests-dummy.m */,
+				30C9F600FF4E14641732D3D4542AA023 /* Pods-CoinFitUITests-frameworks.sh */,
+				8F540477DE6EC246D690173A4A97177C /* Pods-CoinFitUITests-resources.sh */,
+				9BC5367D01F2DF127ADB842B5A0EEDB1 /* Pods-CoinFitUITests-umbrella.h */,
+				0E9F2417E3C51FE3417B9CFFF9FDB268 /* Pods-CoinFitUITests.debug.xcconfig */,
+				56F7C5CCB4A613318B1D5B5A66A6E669 /* Pods-CoinFitUITests.release.xcconfig */,
+			);
+			name = "Pods-CoinFitUITests";
+			path = "Target Support Files/Pods-CoinFitUITests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E353DF22D38967C08D97E19C631457C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				008857312D560B145A69662B5B43DE6E /* Pods_CoinFit.framework */,
+				8C2B5503F0F4366D07115B42BAC0ED05 /* Pods_CoinFitTests.framework */,
+				9BD7A9E6927E22CE8426252C983CA241 /* Pods_CoinFitUITests.framework */,
+				F4D3749FC8B8590F487744B01D4B78AD /* TextFieldEffects.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB9A7A6FC3D2FEAD2BDF6ABD4DDE0449 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55EDCE76AA05D63B893FD4328BFE3F6B /* TextFieldEffects */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E251235E6059BE14AD2D1661C5B0AD5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405582CB432F9A776CC4A15CBB6340E9 /* Pods-CoinFitUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC4D49A09B626A99370803E17A6AF8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A9F61CBBD78848D6E447F9DB189F90 /* Pods-CoinFitTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A5E09E15A844B138FC29A9708716A9E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF35C0695920341DD9D1E7B651676EAB /* Pods-CoinFit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D315BB992127ECBCF31814B6A41C6337 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7279A41C692CBCBFF698720587FDF03D /* TextFieldEffects-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C1E4B4EBE2E1081D52AB08F72D0F414 /* TextFieldEffects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A16B96A36D6D1A02F9FFAB3D7C481B9E /* Build configuration list for PBXNativeTarget "TextFieldEffects" */;
+			buildPhases = (
+				0F1D11C1F28EB6FB1272E7A26C35C74A /* Sources */,
+				6832738C2FC38F21FDED70FD8C3A2D76 /* Frameworks */,
+				D315BB992127ECBCF31814B6A41C6337 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldEffects;
+			productName = TextFieldEffects;
+			productReference = F4D3749FC8B8590F487744B01D4B78AD /* TextFieldEffects.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1FE6ADE96C54F0B26AEB1699B3BE7149 /* Pods-CoinFitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA6B29362C16CEBEF8D6DD98B3BE21B /* Build configuration list for PBXNativeTarget "Pods-CoinFitUITests" */;
+			buildPhases = (
+				43B6355F4CCB596538B5A2CFCA83B26D /* Sources */,
+				438970B79A1A35DEDA6ADABBD4193C7A /* Frameworks */,
+				1E251235E6059BE14AD2D1661C5B0AD5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CoinFitUITests";
+			productName = "Pods-CoinFitUITests";
+			productReference = 9BD7A9E6927E22CE8426252C983CA241 /* Pods_CoinFitUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6AAB6B6E9AAA2631907CA401ED8273B6 /* Pods-CoinFitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 967026F7E7275196A472F8C831D64962 /* Build configuration list for PBXNativeTarget "Pods-CoinFitTests" */;
+			buildPhases = (
+				DD4654D14B94E69CFC8F9BDF2F44B572 /* Sources */,
+				9FBC5A39D44B0FA08F169BEBF781BE5D /* Frameworks */,
+				8DC4D49A09B626A99370803E17A6AF8E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CoinFitTests";
+			productName = "Pods-CoinFitTests";
+			productReference = 8C2B5503F0F4366D07115B42BAC0ED05 /* Pods_CoinFitTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B58DF63196E5924744936C88BEB7EFAA /* Pods-CoinFit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87FCC253AA0D665AD3473BF26D5B68AC /* Build configuration list for PBXNativeTarget "Pods-CoinFit" */;
+			buildPhases = (
+				1DA048CB613EDB9156D04070765CE060 /* Sources */,
+				CE8F8386AD22BCD8C9188303D19177E5 /* Frameworks */,
+				9A5E09E15A844B138FC29A9708716A9E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				249FE21C92514FAD547F092B602C4A0A /* PBXTargetDependency */,
+			);
+			name = "Pods-CoinFit";
+			productName = "Pods-CoinFit";
+			productReference = 008857312D560B145A69662B5B43DE6E /* Pods_CoinFit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E353DF22D38967C08D97E19C631457C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B58DF63196E5924744936C88BEB7EFAA /* Pods-CoinFit */,
+				6AAB6B6E9AAA2631907CA401ED8273B6 /* Pods-CoinFitTests */,
+				1FE6ADE96C54F0B26AEB1699B3BE7149 /* Pods-CoinFitUITests */,
+				1C1E4B4EBE2E1081D52AB08F72D0F414 /* TextFieldEffects */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F1D11C1F28EB6FB1272E7A26C35C74A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4653DACA1DD1DF5235D052457B74B976 /* AkiraTextField.swift in Sources */,
+				8A1323F97EB6BC944C935FF2911565CB /* HoshiTextField.swift in Sources */,
+				1CC70C975D92DE14BAC7B4E399C88F3C /* IsaoTextField.swift in Sources */,
+				BB12FBBF201CC13638DCC0512D81D0B5 /* JiroTextField.swift in Sources */,
+				2BA6432759F65454232B289A02E2B4DB /* KaedeTextField.swift in Sources */,
+				49F3B743CC6B1C6273633D5944C85015 /* MadokaTextField.swift in Sources */,
+				D632D1B2C22A1E3FD906C7270263F435 /* MinoruTextField.swift in Sources */,
+				A3229655A49CC9E5E5D9DD632B75CBFC /* TextFieldEffects-dummy.m in Sources */,
+				8FFB0BDCDA3FF18A3DE93C25054186FB /* TextFieldEffects.swift in Sources */,
+				88605A9CD631E7BD56A658BEEDF43D8B /* YokoTextField.swift in Sources */,
+				2CCA9F990136A34247549422EE11F6FA /* YoshikoTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DA048CB613EDB9156D04070765CE060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86EFE0E6AB44E58FBB1FABA9CD8A8C25 /* Pods-CoinFit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B6355F4CCB596538B5A2CFCA83B26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03C23EC8A03F549AFAB0B10EF7DD7F33 /* Pods-CoinFitUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4654D14B94E69CFC8F9BDF2F44B572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F110BAE6D0F5F67BC16032F499C17CD1 /* Pods-CoinFitTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		249FE21C92514FAD547F092B602C4A0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TextFieldEffects;
+			target = 1C1E4B4EBE2E1081D52AB08F72D0F414 /* TextFieldEffects */;
+			targetProxy = 68AADCB0E7622290916452267A419BF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FFC0F6147FE0B51DF9F791A7FE57B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B985645CADD42277D702523CAFDD1E /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2AE99D470996D7A46C04EB9FC8D1150C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56F7C5CCB4A613318B1D5B5A66A6E669 /* Pods-CoinFitUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoinFitUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoinFitUITests/Pods-CoinFitUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CoinFitUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		362617B2BEA561B8AA2D6644216A6FF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71084AEA56ABB2C0EA7F469EC59DF977 /* Pods-CoinFit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoinFit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoinFit/Pods-CoinFit.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CoinFit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		39F8C0F4EC31DCB65F5710777C350522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E9F2417E3C51FE3417B9CFFF9FDB268 /* Pods-CoinFitUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoinFitUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoinFitUITests/Pods-CoinFitUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CoinFitUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		ACCB80E02729AB971B1B73A7F91C133E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9411076FD326E1D6761E97BA35E3D3CA /* Pods-CoinFitTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoinFitTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoinFitTests/Pods-CoinFitTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CoinFitTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7683A58FDB5A6CAE6C4E0E47FEF6F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A02E18EA6B177B0D34E26EA2909580F1 /* Pods-CoinFitTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoinFitTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoinFitTests/Pods-CoinFitTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CoinFitTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E033BBDE8B6848445F8F31C156C40C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E1B0EA6FC469829225273BA8A6B618D /* Pods-CoinFit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CoinFit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CoinFit/Pods-CoinFit.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CoinFit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE1EE1CE93BC5F2E4976C86B9FE203C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B985645CADD42277D702523CAFDD1E /* TextFieldEffects.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TextFieldEffects/TextFieldEffects-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFieldEffects/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TextFieldEffects/TextFieldEffects.modulemap";
+				PRODUCT_NAME = TextFieldEffects;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
+				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87FCC253AA0D665AD3473BF26D5B68AC /* Build configuration list for PBXNativeTarget "Pods-CoinFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				362617B2BEA561B8AA2D6644216A6FF6 /* Debug */,
+				E033BBDE8B6848445F8F31C156C40C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		967026F7E7275196A472F8C831D64962 /* Build configuration list for PBXNativeTarget "Pods-CoinFitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACCB80E02729AB971B1B73A7F91C133E /* Debug */,
+				D7683A58FDB5A6CAE6C4E0E47FEF6F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A16B96A36D6D1A02F9FFAB3D7C481B9E /* Build configuration list for PBXNativeTarget "TextFieldEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1EE1CE93BC5F2E4976C86B9FE203C6 /* Debug */,
+				0FFC0F6147FE0B51DF9F791A7FE57B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA6B29362C16CEBEF8D6DD98B3BE21B /* Build configuration list for PBXNativeTarget "Pods-CoinFitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F8C0F4EC31DCB65F5710777C350522 /* Debug */,
+				2AE99D470996D7A46C04EB9FC8D1150C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
