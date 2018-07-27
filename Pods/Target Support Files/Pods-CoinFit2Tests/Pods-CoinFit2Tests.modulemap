@@ -1,0 +1,6 @@
+framework module Pods_CoinFit2Tests {
+  umbrella header "Pods-CoinFit2Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

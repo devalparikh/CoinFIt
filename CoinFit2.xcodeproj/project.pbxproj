@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110E8FD342546194FC39A2F4 /* Pods_CoinFit2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A439EA0B3054F2D872A40E84 /* Pods_CoinFit2UITests.framework */; };
+		6DB84085909C87B86D4DC590 /* Pods_CoinFit2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 424D9DEBC2183E4B18FC0DBA /* Pods_CoinFit2Tests.framework */; };
+		D70DEDD12100C3FA00274DDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70DEDD02100C3FA00274DDB /* AppDelegate.swift */; };
+		D70DEDD32100C3FA00274DDB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70DEDD22100C3FA00274DDB /* HomeViewController.swift */; };
+		D70DEDD62100C3FA00274DDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70DEDD42100C3FA00274DDB /* Main.storyboard */; };
+		D70DEDD92100C3FA00274DDB /* CoinFit2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D70DEDD72100C3FA00274DDB /* CoinFit2.xcdatamodeld */; };
+		D70DEDDB2100C3FB00274DDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D70DEDDA2100C3FB00274DDB /* Assets.xcassets */; };
+		D70DEDDE2100C3FB00274DDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70DEDDC2100C3FB00274DDB /* LaunchScreen.storyboard */; };
+		D70DEDE92100C3FB00274DDB /* CoinFit2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70DEDE82100C3FB00274DDB /* CoinFit2Tests.swift */; };
+		D70DEDF42100C3FB00274DDB /* CoinFit2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70DEDF32100C3FB00274DDB /* CoinFit2UITests.swift */; };
+		D70DEE022100C66D00274DDB /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70DEE012100C66D00274DDB /* CalculateViewController.swift */; };
+		D70DEE042100C67600274DDB /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70DEE032100C67600274DDB /* MoreViewController.swift */; };
+		D70DEE08210107E200274DDB /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70DEE07210107E200274DDB /* DesignableView.swift */; };
+		D7A9CD97210115C70088F83B /* CryptoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A9CD96210115C70088F83B /* CryptoViewController.swift */; };
+		D7A9CD992101228C0088F83B /* AllCryptoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A9CD982101228C0088F83B /* AllCryptoViewController.swift */; };
+		FD8340D68098AD3C5788BCA7 /* Pods_CoinFit2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F2D450997859375DFDD7D1 /* Pods_CoinFit2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D70DEDE52100C3FB00274DDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D70DEDC52100C3FA00274DDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D70DEDCC2100C3FA00274DDB;
+			remoteInfo = CoinFit2;
+		};
+		D70DEDF02100C3FB00274DDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D70DEDC52100C3FA00274DDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D70DEDCC2100C3FA00274DDB;
+			remoteInfo = CoinFit2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C0F24E83B234F204E52939 /* Pods-CoinFit2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinFit2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoinFit2UITests/Pods-CoinFit2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2DC37F42A8E64087AA4E30C0 /* Pods-CoinFit2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinFit2UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoinFit2UITests/Pods-CoinFit2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		424D9DEBC2183E4B18FC0DBA /* Pods_CoinFit2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoinFit2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F2D450997859375DFDD7D1 /* Pods_CoinFit2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoinFit2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7333ED28B0E6E37F74E5C53C /* Pods-CoinFit2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinFit2.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoinFit2/Pods-CoinFit2.release.xcconfig"; sourceTree = "<group>"; };
+		852DCB2216597685B3022FD3 /* Pods-CoinFit2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinFit2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoinFit2/Pods-CoinFit2.debug.xcconfig"; sourceTree = "<group>"; };
+		99FFA58D114E82F611F59DCE /* Pods-CoinFit2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinFit2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoinFit2Tests/Pods-CoinFit2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A439EA0B3054F2D872A40E84 /* Pods_CoinFit2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoinFit2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70DEDCD2100C3FA00274DDB /* CoinFit2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinFit2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70DEDD02100C3FA00274DDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D70DEDD22100C3FA00274DDB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D70DEDD52100C3FA00274DDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D70DEDD82100C3FA00274DDB /* CoinFit2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoinFit2.xcdatamodel; sourceTree = "<group>"; };
+		D70DEDDA2100C3FB00274DDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D70DEDDD2100C3FB00274DDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D70DEDDF2100C3FB00274DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D70DEDE42100C3FB00274DDB /* CoinFit2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinFit2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70DEDE82100C3FB00274DDB /* CoinFit2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinFit2Tests.swift; sourceTree = "<group>"; };
+		D70DEDEA2100C3FB00274DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D70DEDEF2100C3FB00274DDB /* CoinFit2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinFit2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70DEDF32100C3FB00274DDB /* CoinFit2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinFit2UITests.swift; sourceTree = "<group>"; };
+		D70DEDF52100C3FB00274DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D70DEE012100C66D00274DDB /* CalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
+		D70DEE032100C67600274DDB /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		D70DEE07210107E200274DDB /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		D7A9CD96210115C70088F83B /* CryptoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewController.swift; sourceTree = "<group>"; };
+		D7A9CD982101228C0088F83B /* AllCryptoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCryptoViewController.swift; sourceTree = "<group>"; };
+		E2E93DC813EC5AFAE9689323 /* Pods-CoinFit2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinFit2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoinFit2Tests/Pods-CoinFit2Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D70DEDCA2100C3FA00274DDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD8340D68098AD3C5788BCA7 /* Pods_CoinFit2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70DEDE12100C3FB00274DDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB84085909C87B86D4DC590 /* Pods_CoinFit2Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70DEDEC2100C3FB00274DDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110E8FD342546194FC39A2F4 /* Pods_CoinFit2UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BD41EB32573CCE88A7AE64D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46F2D450997859375DFDD7D1 /* Pods_CoinFit2.framework */,
+				424D9DEBC2183E4B18FC0DBA /* Pods_CoinFit2Tests.framework */,
+				A439EA0B3054F2D872A40E84 /* Pods_CoinFit2UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D70DEDC42100C3FA00274DDB = {
+			isa = PBXGroup;
+			children = (
+				D70DEDCF2100C3FA00274DDB /* CoinFit2 */,
+				D70DEDE72100C3FB00274DDB /* CoinFit2Tests */,
+				D70DEDF22100C3FB00274DDB /* CoinFit2UITests */,
+				D70DEDCE2100C3FA00274DDB /* Products */,
+				F406127D698C96A6F5926E37 /* Pods */,
+				6BD41EB32573CCE88A7AE64D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D70DEDCE2100C3FA00274DDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D70DEDCD2100C3FA00274DDB /* CoinFit2.app */,
+				D70DEDE42100C3FB00274DDB /* CoinFit2Tests.xctest */,
+				D70DEDEF2100C3FB00274DDB /* CoinFit2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D70DEDCF2100C3FA00274DDB /* CoinFit2 */ = {
+			isa = PBXGroup;
+			children = (
+				D70DEDD02100C3FA00274DDB /* AppDelegate.swift */,
+				D70DEDD22100C3FA00274DDB /* HomeViewController.swift */,
+				D70DEE012100C66D00274DDB /* CalculateViewController.swift */,
+				D70DEE032100C67600274DDB /* MoreViewController.swift */,
+				D7A9CD96210115C70088F83B /* CryptoViewController.swift */,
+				D7A9CD982101228C0088F83B /* AllCryptoViewController.swift */,
+				D70DEDD42100C3FA00274DDB /* Main.storyboard */,
+				D70DEE07210107E200274DDB /* DesignableView.swift */,
+				D70DEDDA2100C3FB00274DDB /* Assets.xcassets */,
+				D70DEDDC2100C3FB00274DDB /* LaunchScreen.storyboard */,
+				D70DEDDF2100C3FB00274DDB /* Info.plist */,
+				D70DEDD72100C3FA00274DDB /* CoinFit2.xcdatamodeld */,
+			);
+			path = CoinFit2;
+			sourceTree = "<group>";
+		};
+		D70DEDE72100C3FB00274DDB /* CoinFit2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D70DEDE82100C3FB00274DDB /* CoinFit2Tests.swift */,
+				D70DEDEA2100C3FB00274DDB /* Info.plist */,
+			);
+			path = CoinFit2Tests;
+			sourceTree = "<group>";
+		};
+		D70DEDF22100C3FB00274DDB /* CoinFit2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D70DEDF32100C3FB00274DDB /* CoinFit2UITests.swift */,
+				D70DEDF52100C3FB00274DDB /* Info.plist */,
+			);
+			path = CoinFit2UITests;
+			sourceTree = "<group>";
+		};
+		F406127D698C96A6F5926E37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				852DCB2216597685B3022FD3 /* Pods-CoinFit2.debug.xcconfig */,
+				7333ED28B0E6E37F74E5C53C /* Pods-CoinFit2.release.xcconfig */,
+				99FFA58D114E82F611F59DCE /* Pods-CoinFit2Tests.debug.xcconfig */,
+				E2E93DC813EC5AFAE9689323 /* Pods-CoinFit2Tests.release.xcconfig */,
+				03C0F24E83B234F204E52939 /* Pods-CoinFit2UITests.debug.xcconfig */,
+				2DC37F42A8E64087AA4E30C0 /* Pods-CoinFit2UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D70DEDCC2100C3FA00274DDB /* CoinFit2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D70DEDF82100C3FB00274DDB /* Build configuration list for PBXNativeTarget "CoinFit2" */;
+			buildPhases = (
+				2F1F4D7ECFBAC08D02DCC3B4 /* [CP] Check Pods Manifest.lock */,
+				D70DEDC92100C3FA00274DDB /* Sources */,
+				D70DEDCA2100C3FA00274DDB /* Frameworks */,
+				D70DEDCB2100C3FA00274DDB /* Resources */,
+				675B780EC598B1A77BE0A30B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoinFit2;
+			productName = CoinFit2;
+			productReference = D70DEDCD2100C3FA00274DDB /* CoinFit2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D70DEDE32100C3FB00274DDB /* CoinFit2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D70DEDFB2100C3FB00274DDB /* Build configuration list for PBXNativeTarget "CoinFit2Tests" */;
+			buildPhases = (
+				22F4FCE7D63569B384D39C68 /* [CP] Check Pods Manifest.lock */,
+				D70DEDE02100C3FB00274DDB /* Sources */,
+				D70DEDE12100C3FB00274DDB /* Frameworks */,
+				D70DEDE22100C3FB00274DDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D70DEDE62100C3FB00274DDB /* PBXTargetDependency */,
+			);
+			name = CoinFit2Tests;
+			productName = CoinFit2Tests;
+			productReference = D70DEDE42100C3FB00274DDB /* CoinFit2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D70DEDEE2100C3FB00274DDB /* CoinFit2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D70DEDFE2100C3FB00274DDB /* Build configuration list for PBXNativeTarget "CoinFit2UITests" */;
+			buildPhases = (
+				66D69B1057CFE236565C9B6A /* [CP] Check Pods Manifest.lock */,
+				D70DEDEB2100C3FB00274DDB /* Sources */,
+				D70DEDEC2100C3FB00274DDB /* Frameworks */,
+				D70DEDED2100C3FB00274DDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D70DEDF12100C3FB00274DDB /* PBXTargetDependency */,
+			);
+			name = CoinFit2UITests;
+			productName = CoinFit2UITests;
+			productReference = D70DEDEF2100C3FB00274DDB /* CoinFit2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D70DEDC52100C3FA00274DDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Deval Parikh";
+				TargetAttributes = {
+					D70DEDCC2100C3FA00274DDB = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					D70DEDE32100C3FB00274DDB = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = D70DEDCC2100C3FA00274DDB;
+					};
+					D70DEDEE2100C3FB00274DDB = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = D70DEDCC2100C3FA00274DDB;
+					};
+				};
+			};
+			buildConfigurationList = D70DEDC82100C3FA00274DDB /* Build configuration list for PBXProject "CoinFit2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D70DEDC42100C3FA00274DDB;
+			productRefGroup = D70DEDCE2100C3FA00274DDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D70DEDCC2100C3FA00274DDB /* CoinFit2 */,
+				D70DEDE32100C3FB00274DDB /* CoinFit2Tests */,
+				D70DEDEE2100C3FB00274DDB /* CoinFit2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D70DEDCB2100C3FA00274DDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70DEDDE2100C3FB00274DDB /* LaunchScreen.storyboard in Resources */,
+				D70DEDDB2100C3FB00274DDB /* Assets.xcassets in Resources */,
+				D70DEDD62100C3FA00274DDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70DEDE22100C3FB00274DDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70DEDED2100C3FB00274DDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22F4FCE7D63569B384D39C68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoinFit2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F1F4D7ECFBAC08D02DCC3B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoinFit2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66D69B1057CFE236565C9B6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoinFit2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		675B780EC598B1A77BE0A30B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CoinFit2/Pods-CoinFit2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoinFit2/Pods-CoinFit2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D70DEDC92100C3FA00274DDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70DEE042100C67600274DDB /* MoreViewController.swift in Sources */,
+				D7A9CD992101228C0088F83B /* AllCryptoViewController.swift in Sources */,
+				D70DEDD32100C3FA00274DDB /* HomeViewController.swift in Sources */,
+				D70DEE08210107E200274DDB /* DesignableView.swift in Sources */,
+				D70DEE022100C66D00274DDB /* CalculateViewController.swift in Sources */,
+				D7A9CD97210115C70088F83B /* CryptoViewController.swift in Sources */,
+				D70DEDD92100C3FA00274DDB /* CoinFit2.xcdatamodeld in Sources */,
+				D70DEDD12100C3FA00274DDB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70DEDE02100C3FB00274DDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70DEDE92100C3FB00274DDB /* CoinFit2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70DEDEB2100C3FB00274DDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D70DEDF42100C3FB00274DDB /* CoinFit2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D70DEDE62100C3FB00274DDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D70DEDCC2100C3FA00274DDB /* CoinFit2 */;
+			targetProxy = D70DEDE52100C3FB00274DDB /* PBXContainerItemProxy */;
+		};
+		D70DEDF12100C3FB00274DDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D70DEDCC2100C3FA00274DDB /* CoinFit2 */;
+			targetProxy = D70DEDF02100C3FB00274DDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D70DEDD42100C3FA00274DDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D70DEDD52100C3FA00274DDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D70DEDDC2100C3FB00274DDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D70DEDDD2100C3FB00274DDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D70DEDF62100C3FB00274DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D70DEDF72100C3FB00274DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D70DEDF92100C3FB00274DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 852DCB2216597685B3022FD3 /* Pods-CoinFit2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM8H5T7XNA;
+				INFOPLIST_FILE = CoinFit2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devalparikh.apps.CoinFit2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D70DEDFA2100C3FB00274DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7333ED28B0E6E37F74E5C53C /* Pods-CoinFit2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM8H5T7XNA;
+				INFOPLIST_FILE = CoinFit2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devalparikh.apps.CoinFit2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D70DEDFC2100C3FB00274DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99FFA58D114E82F611F59DCE /* Pods-CoinFit2Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM8H5T7XNA;
+				INFOPLIST_FILE = CoinFit2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devalparikh.apps.CoinFit2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinFit2.app/CoinFit2";
+			};
+			name = Debug;
+		};
+		D70DEDFD2100C3FB00274DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E93DC813EC5AFAE9689323 /* Pods-CoinFit2Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM8H5T7XNA;
+				INFOPLIST_FILE = CoinFit2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devalparikh.apps.CoinFit2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoinFit2.app/CoinFit2";
+			};
+			name = Release;
+		};
+		D70DEDFF2100C3FB00274DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03C0F24E83B234F204E52939 /* Pods-CoinFit2UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM8H5T7XNA;
+				INFOPLIST_FILE = CoinFit2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devalparikh.apps.CoinFit2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoinFit2;
+			};
+			name = Debug;
+		};
+		D70DEE002100C3FB00274DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC37F42A8E64087AA4E30C0 /* Pods-CoinFit2UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZM8H5T7XNA;
+				INFOPLIST_FILE = CoinFit2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devalparikh.apps.CoinFit2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CoinFit2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D70DEDC82100C3FA00274DDB /* Build configuration list for PBXProject "CoinFit2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D70DEDF62100C3FB00274DDB /* Debug */,
+				D70DEDF72100C3FB00274DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D70DEDF82100C3FB00274DDB /* Build configuration list for PBXNativeTarget "CoinFit2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D70DEDF92100C3FB00274DDB /* Debug */,
+				D70DEDFA2100C3FB00274DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D70DEDFB2100C3FB00274DDB /* Build configuration list for PBXNativeTarget "CoinFit2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D70DEDFC2100C3FB00274DDB /* Debug */,
+				D70DEDFD2100C3FB00274DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D70DEDFE2100C3FB00274DDB /* Build configuration list for PBXNativeTarget "CoinFit2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D70DEDFF2100C3FB00274DDB /* Debug */,
+				D70DEE002100C3FB00274DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D70DEDD72100C3FA00274DDB /* CoinFit2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D70DEDD82100C3FA00274DDB /* CoinFit2.xcdatamodel */,
+			);
+			currentVersion = D70DEDD82100C3FA00274DDB /* CoinFit2.xcdatamodel */;
+			path = CoinFit2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D70DEDC52100C3FA00274DDB /* Project object */;
+}

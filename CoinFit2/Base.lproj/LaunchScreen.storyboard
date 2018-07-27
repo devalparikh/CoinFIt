@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5B1-hC-BUM">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="v2." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JC7-p8-5X8">
+                                        <rect key="frame" x="146" y="360" width="83" height="41"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="83" id="KZo-bm-d9g"/>
+                                            <constraint firstAttribute="height" constant="41" id="iTd-NV-wLg"/>
+                                            <constraint firstAttribute="width" secondItem="JC7-p8-5X8" secondAttribute="height" multiplier="83:41" id="qdZ-Mn-cE1"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CoinFit Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Wlj-s3-0gx">
+                                        <rect key="frame" x="0.0" y="284" width="375" height="99"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="375" id="f2I-z6-vRL"/>
+                                            <constraint firstAttribute="width" secondItem="Wlj-s3-0gx" secondAttribute="height" multiplier="125:33" id="hLM-8A-PpX"/>
+                                            <constraint firstAttribute="height" constant="99" id="mCs-8C-gEh"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="devalparikh.me" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5e1-B9-5zm">
+                                        <rect key="frame" x="0.0" y="595" width="375" height="72"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="375" id="g4O-zR-Iwk"/>
+                                            <constraint firstAttribute="height" constant="72" id="hjW-C1-5Dk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.062745098039215685" green="0.10980392156862745" blue="0.32941176470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="5e1-B9-5zm" secondAttribute="bottom" id="0QW-AE-ej7"/>
+                                    <constraint firstItem="Wlj-s3-0gx" firstAttribute="centerY" secondItem="5B1-hC-BUM" secondAttribute="centerY" id="DrD-qm-tHh"/>
+                                    <constraint firstAttribute="trailing" secondItem="Wlj-s3-0gx" secondAttribute="trailing" id="E5v-87-BYb"/>
+                                    <constraint firstItem="Wlj-s3-0gx" firstAttribute="centerX" secondItem="5B1-hC-BUM" secondAttribute="centerX" id="Jfl-KY-AuA"/>
+                                    <constraint firstAttribute="bottom" secondItem="JC7-p8-5X8" secondAttribute="bottom" constant="266" id="KLD-AP-gJB"/>
+                                    <constraint firstItem="JC7-p8-5X8" firstAttribute="centerX" secondItem="5B1-hC-BUM" secondAttribute="centerX" id="MzN-Pe-gYH"/>
+                                    <constraint firstItem="5e1-B9-5zm" firstAttribute="leading" secondItem="5B1-hC-BUM" secondAttribute="leading" id="bER-qh-xE2"/>
+                                    <constraint firstItem="Wlj-s3-0gx" firstAttribute="leading" secondItem="5B1-hC-BUM" secondAttribute="leading" id="eZp-Gi-KFQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="5e1-B9-5zm" secondAttribute="trailing" id="f3L-vD-R4r"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5B1-hC-BUM" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="FAp-ku-rhy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5B1-hC-BUM" secondAttribute="trailing" id="MFX-4u-okH"/>
+                            <constraint firstItem="5B1-hC-BUM" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="RbF-Wx-T0r"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5B1-hC-BUM" secondAttribute="bottom" id="uq1-O5-JOS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CoinFit Logo" width="497" height="203"/>
+    </resources>
+</document>
