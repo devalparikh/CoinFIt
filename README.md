@@ -1,3 +1,3 @@
 # CoinFIt v2
 An IOS investment Profit Calculator
-![GIF](https://github.com/devalparikh/CoinFIt/blob/master/sample.gif | width=100)
+<img src="https://github.com/devalparikh/CoinFIt/blob/master/sample.gif" width="190" height="108" />
